@@ -1,6 +1,3 @@
-<% flash.each do |name, msg| %>
-     <%= content_tag(:div, msg, class: "alert alert-info") %>
-<% end %>
 
 config.assets.initialize_on_precompile = false
 

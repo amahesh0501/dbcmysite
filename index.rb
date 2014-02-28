@@ -2,7 +2,6 @@
 
 
 
-
 gem 'devise'
 
 config.action_mailer.default_url_options = { :host => 'localhost:3000' }
@@ -10,7 +9,7 @@ config/environments/production.rb
 
 config.action_mailer.default_url_options = { :host => 'http://pinteresting-commits.herokuapp.com/' }
 
-
+root to: "home#index"
 
 
 

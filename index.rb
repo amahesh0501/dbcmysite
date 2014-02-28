@@ -1,7 +1,14 @@
-    @friends = User.first.friends_count
+development:
+  adapter: postgresql
+  database: waste_5_dev
+  pool: 5
+  timeout: 5000
 
-    <%= @friends %>
-
+test:
+  adapter: postgresql
+  database: waste_5_test
+  pool: 5
+  timeout: 5000
 
 
 

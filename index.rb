@@ -1,16 +1,8 @@
+<% flash.each do |name, msg| %>
+     <%= content_tag(:div, msg, class: "alert alert-info") %>
+<% end %>
 
-
-
-
-gem 'devise'
-
-config.action_mailer.default_url_options = { :host => 'localhost:3000' }
-config/environments/production.rb
-
-config.action_mailer.default_url_options = { :host => 'http://pinteresting-commits.herokuapp.com/' }
-
-root to: "home#index"
-
+config.assets.initialize_on_precompile = false
 
 
 

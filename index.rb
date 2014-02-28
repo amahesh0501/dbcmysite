@@ -1,5 +1,7 @@
-require "omniauth-facebook"
-config.omniauth :facebook, "APP_ID", "APP_SECRET"
+    @friends = User.first.friends_count
+
+    <%= @friends %>
+
 
 
 

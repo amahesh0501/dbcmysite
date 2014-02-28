@@ -1,5 +1,5 @@
-
-config.assets.initialize_on_precompile = false
+require "omniauth-facebook"
+config.omniauth :facebook, "APP_ID", "APP_SECRET"
 
 
 
